@@ -1,0 +1,23 @@
+{
+  "name": "showcase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheShah24/showcase.git"
+  },
+  "author": "Shahriyar Mavlan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheShah24/showcase/issues"
+  },
+  "homepage": "https://github.com/TheShah24/showcase#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.0"
+  }
+}
