@@ -10,14 +10,24 @@
     "type": "git",
     "url": "git+https://github.com/TheShah24/showcase.git"
   },
-  "author": "Shahriyar Mavlan",
+  "author": "shahriyar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TheShah24/showcase/issues"
   },
   "homepage": "https://github.com/TheShah24/showcase#readme",
   "dependencies": {
+    
     "jquery": "^3.3.1",
     "normalize.css": "^8.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "autoprefixer": "^9.1.5",
+    "gulp-postcss": "^8.0.0",
+    "gulp-watch": "^5.0.1",
+    "postcss-import": "^12.0.0",
+    "postcss-nested": "^4.1.0",
+    "postcss-simple-vars": "^5.0.1"
   }
 }
