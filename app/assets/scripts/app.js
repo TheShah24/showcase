@@ -1,4 +1,6 @@
-var Person = require('./modules/Person');
+import MobileMenu from './modules/MobileMenu';
 
-var john = new Person("John Doe", "blue");
+var mobileMenu = new MobileMenu();
+
+
 

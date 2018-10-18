@@ -1,10 +1,10 @@
 var gulp         = require("gulp"),
 	postcss      = require("gulp-postcss"),
-	autoprefixer = require("autoprefixer"),
+	cssImport    = require("postcss-import"),
 	cssvars      = require("postcss-simple-vars"),
 	nested       = require("postcss-nested"),
 	plumber      = require("gulp-plumber"),
-	cssImport    = require("postcss-import"),
+	autoprefixer = require("autoprefixer"),
 	mixins       = require("postcss-mixins");
 
 gulp.task('styles', function(){
